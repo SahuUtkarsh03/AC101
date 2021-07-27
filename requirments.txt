@@ -1,0 +1,5 @@
+numpy==1.21.0
+pandas==1.2.5
+streamlit==0.84.2
+rdkit==2021.03.4
+pillow==8.3.1
