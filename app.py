@@ -51,9 +51,9 @@ def generate(smiles, verbose=False):
     return descriptors
 
 
-# image = Image.open('solubility-logo.jpg')
+image = Image.open('Molecular Solubility.png')
 
-# st.image(image, use_column_width=True)
+st.image(image, use_column_width=True,caption="Predicting Solubilty using Machine Learning")
 
 st.write("""
 # Molecular Solubility Prediction Web App
