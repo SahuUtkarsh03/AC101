@@ -66,7 +66,7 @@ To read about the background and report of this project please [click here.](htt
 st.sidebar.header('User Input Features')
 
 ## Read SMILES input
-SMILES_input = "NCCCC\nCCC\nCN"
+SMILES_input = "NCCCC\nCCC\nC(=O)(N)N\nCN"
 
 SMILES = st.sidebar.text_area("SMILES input", SMILES_input)
 SMILES = "C\n" + SMILES #Adds C as a dummy, first item
